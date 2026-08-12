@@ -88,7 +88,7 @@ sentencia posible con una regla textual exacta.
 
 ## Reglas propias del equipo
 
-Agregar acá, y en `rules/conventions.md` (sección "Reglas adicionales del
-equipo"), cualquier violación adicional que el equipo decida incorporar,
-con el mismo formato IF/THEN.
-s
+* **Integrantes del equipo:** Lilia Hernández Tun y Dana Lizbeth Castañeda Sánchez
+* **Regla adicional propia (Seguridad/Convención):**
+  * **IF** se detecta el uso de la sentencia `DROP TABLE` o `DROP DATABASE`
+  * **THEN** clasificar como **CRITICAL** y exigir que cualquier operación destructiva de esquema esté acompañada de una transacción con respaldo previo o confirmación explícita.
